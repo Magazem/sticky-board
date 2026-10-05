@@ -1,0 +1,36 @@
+{
+  "name": "sticky-board-promo",
+  "private": true,
+  "type": "module",
+  "description": "A collage-style explainer video for Sticky Board, made entirely in code",
+  "scripts": {
+    "vo": "python3 tts/voiceover.py",
+    "audio": "tsx src/audio/mix.ts",
+    "bundle": "esbuild src/visual/main.ts --bundle --format=iife --outfile=build/film.js --target=es2022",
+    "render": "npm run bundle && tsx src/render.ts",
+    "preview": "npm run bundle && tsx src/render.ts --serve"
+  },
+  "devDependencies": {
+    "@fontsource/abril-fatface": "^5.3.0",
+    "@fontsource/alfa-slab-one": "^5.3.0",
+    "@fontsource/anton": "^5.3.0",
+    "@fontsource/archivo-black": "^5.3.0",
+    "@fontsource/bebas-neue": "^5.3.0",
+    "@fontsource/bungee": "^5.3.0",
+    "@fontsource/caveat": "^5.3.0",
+    "@fontsource/gochi-hand": "^5.3.0",
+    "@fontsource/jetbrains-mono": "^5.3.0",
+    "@fontsource/kalam": "^5.3.0",
+    "@fontsource/patrick-hand": "^5.3.0",
+    "@fontsource/permanent-marker": "^5.3.0",
+    "@fontsource/playfair-display": "^5.3.0",
+    "@fontsource/rubik-mono-one": "^5.3.0",
+    "@fontsource/shrikhand": "^5.3.0",
+    "@fontsource/special-elite": "^5.3.0",
+    "@types/node": "^26.6.4",
+    "esbuild": "^0.28.2",
+    "playwright": "^1.56.1",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}

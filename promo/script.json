@@ -1,0 +1,63 @@
+{
+  "voice": "af_heart",
+  "speed": 1.0,
+  "lines": [
+    {
+      "id": "loose",
+      "text": "Every project has loose ends."
+    },
+    {
+      "id": "bug",
+      "text": "A bug you spotted at midnight."
+    },
+    {
+      "id": "key",
+      "text": "A key only you can rotate."
+    },
+    {
+      "id": "todo",
+      "text": "A task Claude promised to get to... eventually."
+    },
+    {
+      "id": "scatter",
+      "text": "And halfway through a session, they scatter."
+    },
+    {
+      "id": "pin",
+      "text": "So let's pin them down."
+    },
+    {
+      "id": "meet",
+      "text": "Meet Sticky Board: a tiny pane that lives right inside Claude Code."
+    },
+    {
+      "id": "phase",
+      "text": "Up top, the phase you're in."
+    },
+    {
+      "id": "lists",
+      "text": "Below it, three short lists. What Claude still has to do. What only you can do. And the bugs you know about."
+    },
+    {
+      "id": "current",
+      "text": "Claude keeps it current on its own. It files new work, ticks off what's finished,"
+    },
+    {
+      "id": "nudge",
+      "text": "and gives you a nudge when something lands on your list."
+    },
+    {
+      "id": "glance",
+      "text": "You just glance, and click to tick it off."
+    },
+    {
+      "id": "project",
+      "text": "One board per project, all in one plain file."
+    },
+    {
+      "id": "outro",
+      "text": "Sticky Board. Keep your loose ends where you can see them."
+    }
+  ],
+  "pronounce": {}
+}
