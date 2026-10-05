@@ -1,0 +1,9 @@
+{
+  "name": "sticky-board",
+  "version": "0.1.0",
+  "description": "A small pane in Claude Code with your project's current phase and two to-do lists: one for Claude, one for you",
+  "author": { "name": "Magazem", "url": "https://github.com/Magazem" },
+  "homepage": "https://github.com/Magazem/sticky-board",
+  "license": "MIT",
+  "types": "./types/index.d.ts"
+}
