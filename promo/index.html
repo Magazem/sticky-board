@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sticky Board — the film</title>
+<style>
+  :root { color-scheme: dark; }
+  html, body { margin: 0; height: 100%; background: #14110f; }
+  body { display: grid; place-items: center; font: 15px/1.4 system-ui, sans-serif; color: #e8dfd2; }
+  #film { width: min(100vw, 177.78vh); height: auto; aspect-ratio: 16 / 9; display: block; background: #f2e8d5; }
+  #play { position: fixed; inset: 0; margin: auto; width: 120px; height: 120px; border-radius: 50%; border: 0;
+          background: #ffd84a; color: #2a2420; font-size: 44px; cursor: pointer; box-shadow: 0 6px 24px #0008; }
+  #play[hidden] { display: none; }
+  #status { position: fixed; bottom: 12px; left: 0; right: 0; text-align: center; opacity: .6; }
+</style>
+</head>
+<body>
+<canvas id="film"></canvas>
+<button id="play" hidden aria-label="Play">▶</button>
+<div id="status">loading…</div>
+<audio id="audio" src="build/audio.wav" preload="auto"></audio>
+<script src="build/film.js"></script>
+</body>
+</html>
